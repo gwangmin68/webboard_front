@@ -1,0 +1,30 @@
+.signup-container{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  display: table-cell;
+  vertical-align: center;
+  .signup-header{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    font-size: 1.5em;
+  }
+  .input-container{
+    margin: 3% 10%;
+    .input{
+      font-size: 1.2em;
+      .label{
+        width: 20%;
+      }
+      *{
+        display: inline-block;
+      }
+    }
+  }
+  .btn-container{
+    text-align: center;
+    .btn{
+      font-size: 1.2em;
+    }
+  }
+}
